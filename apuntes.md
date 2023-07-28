@@ -36,7 +36,7 @@
   	- Int, Integer = numero entero
   	- Decimal = numero exacto
   	- time = horas, minutos, segundos, etc
-  - [CONSULTAS DE DATOS]()
+- [CONSULTAS DE DATOS]()
     	~~~
     	SELECT * FROM alumno;
     	~~~
