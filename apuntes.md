@@ -6,7 +6,7 @@
  		idAlumno INT NOT NULL,
  		nombre VARCHAR(20),
  		apellido VARCHAR(50)
- 	);
+ 		);
    	*/
    	~~~
    	
