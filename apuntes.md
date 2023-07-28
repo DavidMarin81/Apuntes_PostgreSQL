@@ -15,5 +15,6 @@
  		apellido VARCHAR(50)
  	);
 	~~~
+   	- *Para ver la tabla en PostgreSQL -> MiBaseDeDatos / Schemas / public / Tables / Alumno*
 
 
