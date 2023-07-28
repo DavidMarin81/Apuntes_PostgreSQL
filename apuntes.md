@@ -16,5 +16,10 @@
  	);
 	~~~
    	- *Para ver la tabla en PostgreSQL -> MiBaseDeDatos / Schemas / public / Tables / Alumno*
+- [INSERTAR DATOS]()
+  	~~~~
+	INSERT INTO alumno values ('1', 'Patricia', 'Cid');
+	INSERT INTO alumno (nombre, idAlumno) values ('Xian', '2');
+   	~~~~
 
 
