@@ -1,13 +1,13 @@
 - [COMENTARIOS]()
-  	~~~
-   	-- SELECT * FROM alumnos;
-   	/*
-   	CREATE TABLE Alumno (
- 		idAlumno INT NOT NULL,
- 		nombre VARCHAR(20),
- 		apellido VARCHAR(50)
- 		);
-   	*/
+  ~~~
+  -- SELECT * FROM alumnos;
+  /*
+  CREATE TABLE Alumno (
+ 	idAlumno INT NOT NULL,
+ 	nombre VARCHAR(20),
+ 	apellido VARCHAR(50)
+ 	);
+  */
    	~~~
    	
 - [CREAR BBDD]()
