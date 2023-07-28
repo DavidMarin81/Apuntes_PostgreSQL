@@ -40,4 +40,13 @@
 	~~~
  	SELECT * FROM alumno;
  	SELECT idAlumno as ID, nombre as NAME FROM alumno;
+ 	SELECT * FROM alumno WHERE nombre = 'David';
+	SELECT * FROM alumno WHERE nombre != 'David';
+	SELECT * FROM alumno WHERE idAlumno > '1';
+	SELECT * FROM alumno WHERE idAlumno > '1' AND apellido = 'Marin';
  	~~~
+- [ELIMINAR DATOS]()
+  	~~~
+   	DELETE FROM alumno WHERE idAlumno = '5';
+   	~~~
+
