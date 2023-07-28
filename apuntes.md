@@ -21,5 +21,9 @@
 	INSERT INTO alumno values ('1', 'Patricia', 'Cid');
 	INSERT INTO alumno (nombre, idAlumno) values ('Xian', '2');
    	~~~~
-
+- [MODIFICAR DATOS]()
+  	~~~~
+	UPDATE alumno SET apellido = 'Marin' WHERE idAlumno = '3';
+   	UPDATE alumno SET apellido = 'En blanco' WHERE apellido IS NULL;
+   	~~~~
 
