@@ -39,4 +39,5 @@
 - [CONSULTAS DE DATOS]()
 	~~~
  	SELECT * FROM alumno;
+ 	SELECT idAlumno as ID, nombre as NAME FROM alumno;
  	~~~
