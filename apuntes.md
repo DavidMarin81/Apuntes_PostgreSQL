@@ -35,7 +35,7 @@
   	- Float = flotante
   	- Int, Integer = numero entero
   	- Decimal = numero exacto
-  	- time = horas, minutos, segundos, ...
+  	- time = horas, minutos, segundos, etc
   - [CONSULTAS DE DATOS]()
     	~~~
     	SELECT * FROM alumno;
