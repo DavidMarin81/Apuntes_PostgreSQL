@@ -37,7 +37,6 @@
   	- Decimal = numero exacto
   	- time = horas, minutos, segundos, etc
 - [CONSULTAS DE DATOS]()
-    	~~~
-    	SELECT * FROM alumno;
-    	~~~
-
+	~~~
+ 	SELECT * FROM alumno;
+ 	~~~
