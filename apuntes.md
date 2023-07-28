@@ -27,7 +27,17 @@
 	UPDATE alumno SET apellido = 'En blanco' WHERE apellido IS NULL;
 	UPDATE alumno SET nombre = 'Lara', apellido = 'Martinez' WHERE idAlumno = '4';
    	~~~~
-- [MODIFICAR DATOS]()
-  	~~~~
-   	~~~~
+- [TIPOS DE DATOS]()
+  	- Boolean = true or false;
+ 	- Varchar(n) = cadena de caracteres de tamaño variable
+  	- Character(n) = cadena de caracteres de tamaño fijo
+  	- date = fecha (sin hora)
+  	- Float = flotante
+  	- Int, Integer = numero entero
+  	- Decimal = numero exacto
+  	- time = horas, minutos, segundos, ...
+  - [CONSULTAS DE DATOS]()
+    	~~~~
+    	SELECT * FROM alumno;
+    	~~~~
 
