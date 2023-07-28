@@ -1,2 +1,2 @@
-- [CREAR TABLA]()
+- [CREAR TABLA]
 	- para  que la columna tenga valores nulos
