@@ -1,7 +1,11 @@
 - [CREAR BBDD]()
-	- CREATE DATABASE MiBaseDeDatos;
+	~~~~
+ 	CREATE DATABASE MiBaseDeDatos;
+ 	~~~~
 - [BORRAR BBDD]()
-	- DROP DATABASE IF EXISTS MiBaseDeDatos;
+ 	~~~~
+ 	DROP DATABASE IF EXISTS MiBaseDeDatos;
+ 	~~~~
 
  - [CREAR TABLA]()
 	~~~
