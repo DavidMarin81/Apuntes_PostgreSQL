@@ -36,6 +36,15 @@
 		apellido VARCHAR(50)
 	);
   	~~~
+  	~~~
+   	-- Crear tabla con valores por defecto
+	CREATE TABLE alumno3 (
+	idAlumno SERIAL PRIMARY KEY NOT NULL,
+	nombre VARCHAR(20),
+	apellido VARCHAR(50),
+	telefono varchar(9) DEFAULT 'X'
+	);
+	~~~
    	- *Para ver la tabla en PostgreSQL -> MiBaseDeDatos / Schemas / public / Tables / Alumno*
 - [INSERTAR DATOS]()
 	~~~
