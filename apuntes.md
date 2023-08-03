@@ -27,6 +27,15 @@
 		apellido VARCHAR(50)
 	);
 	~~~
+ 	~~~
+  	-- Creando tabla con PK y AUTOINCREMENT
+	-- Serial = tipo de dato para autoincrementales
+	CREATE TABLE alumno2 (
+		idAlumno SERIAL PRIMARY KEY NOT NULL,
+		nombre VARCHAR(20),
+		apellido VARCHAR(50)
+	);
+  	~~~
    	- *Para ver la tabla en PostgreSQL -> MiBaseDeDatos / Schemas / public / Tables / Alumno*
 - [INSERTAR DATOS]()
 	~~~
@@ -84,4 +93,7 @@
 	-- Modificar el tipo de dato de la columna
 	-- Hay que tener cuidado si ya hay datos introducidos
 	ALTER TABLE alumno ALTER COLUMN dni TYPE VARCHAR(50);
+
+ 	-- Modificando la tabla para añadirle un PK
+	ALTER TABLE alumno ADD PRIMARY KEY (idAlumno);
 	~~~
