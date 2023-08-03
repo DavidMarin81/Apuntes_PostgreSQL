@@ -118,3 +118,24 @@
  	-- Modificando la tabla para añadirle un PK
 	ALTER TABLE alumno ADD PRIMARY KEY (idAlumno);
 	~~~
+ - [ORDER BY]()
+	~~~
+	SELECT * FROM alumno ORDER BY idAlumno DESC;
+	~~~
+ - [LIKE, ILIKE, NOT LIKE, NOT ILIKE]()
+   	- ILIKE = no tiene en cuanta mayúsculas ni minúsculas
+   	- % = cero o más caracteres
+   	- _ = un solo caracter
+	~~~
+	-- Que empiece por 0 o + caracteres, que contenga la 'i' y que termine por un caracter cualquiera
+ 	SELECT * FROM alumno WHERE nombre LIKE '%i_';
+	~~~
+ - [COUNT]()
+	~~~
+	SELECT COUNT(*) from alumno WHERE nombre LIKE '%i_';
+	~~~
+ - [SUM]()
+	~~~
+	SELECT SUM(salario) from alumno WHERE nombre LIKE '%I_';
+	~~~
+
