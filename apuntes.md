@@ -79,7 +79,7 @@
 	~~~
 	DELETE FROM alumno WHERE idAlumno = '5';
 	~~~
-- [ MODIFICAR COLUMNAS]()
+- [MODIFICAR COLUMNAS]()
 	~~~
 	-- Añadir columna
 	ALTER TABLE alumno ADD COLUMN dni varchar(20);
@@ -138,4 +138,21 @@
 	~~~
 	SELECT SUM(salario) from alumno WHERE nombre LIKE '%I_';
 	~~~
-
+- [MAX(), MIN(), GROUP BY]()
+  	- MAX()
+	~~~
+	SELECT MAX(idAlumno) from alumno;
+	~~~
+ 	- MIN()
+	~~~
+	SELECT MIN(idAlumno) from alumno;
+	~~~
+ 	- GROUP BY
+	~~~
+	-- agrupa todos los apellidos, los muestra y, de cada apellido, muestra el valor más pequeño
+	SELECT apellido, MIN(salario) FROM alumno GROUP BY apellido;
+	~~~
+ - [AVG]()
+	~~~
+	SELECT AVG(Salario) FROM alumno;
+	~~~
