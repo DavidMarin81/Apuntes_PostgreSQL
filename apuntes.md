@@ -74,26 +74,38 @@
 	~~~
 	-- Añadir columna
 	ALTER TABLE alumno ADD COLUMN dni varchar(20);
-	
+	~~~
+ 
+ 	~~~
 	-- Modificar nombre de la columna
 	ALTER TABLE alumno RENAME COLUMN dni to pasaporte;
-	
+	~~~
+  
+  	~~~
 	-- Eliminar columna
 	ALTER TABLE alumno DROP COLUMN pasaporte;
-	
+	~~~
+   
+   	~~~
 	-- Modificar la columna para que no acepte valores nulos
 	-- Para hacer esto, no puede haber datos "not null" en la tabla
 	UPDATE alumno SET dni = 'Sin introducir';
 	-- Ahora ya se puede estableces que no acepte valores nulos
 	ALTER TABLE alumno ALTER COLUMN dni SET NOT NULL;
-	
+   	~~~
+    
+  	~~~
 	-- Quitarle el valor NOT NULL, para que acepte valores nulos
 	ALTER TABLE alumno ALTER COLUMN dni DROP NOT NULL;
-	
+	~~~
+
+ 	~~~
 	-- Modificar el tipo de dato de la columna
 	-- Hay que tener cuidado si ya hay datos introducidos
 	ALTER TABLE alumno ALTER COLUMN dni TYPE VARCHAR(50);
-
+  	~~~
+  
+	~~~
  	-- Modificando la tabla para añadirle un PK
 	ALTER TABLE alumno ADD PRIMARY KEY (idAlumno);
 	~~~
