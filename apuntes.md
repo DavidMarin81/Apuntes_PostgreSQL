@@ -74,6 +74,14 @@
 	SELECT * FROM alumno WHERE nombre != 'David';
 	SELECT * FROM alumno WHERE idAlumno > '1';
 	SELECT * FROM alumno WHERE idAlumno > '1' AND apellido = 'Marin';
+ 	SELECT * FROM MOVIES WHERE ID (SELECT ID FROM MOVIES WHERE "YEAR" > 1995);
+	~~~
+ - [SUBCONSULTAS DE DATOS]()
+	~~~
+ 	-- Para cuando la consulta devuelve un valor
+ 	SELECT * FROM MOVIES WHERE ID = (SELECT ID FROM MOVIES WHERE "YEAR" = 2008;
+ 	-- Para cuando la consulta devuelve un grupo de valores
+ 	SELECT * FROM MOVIES WHERE ID IN (SELECT ID FROM MOVIES WHERE "YEAR" > 1995);
 	~~~
 - [ELIMINAR DATOS]()
 	~~~
