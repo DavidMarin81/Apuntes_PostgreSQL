@@ -134,6 +134,9 @@
 	~~~
 	SELECT COUNT(*) from alumno WHERE nombre LIKE '%i_';
 	~~~
+ 	~~~
+	SELECT COUNT(DISTINCT DIRECTORID) FROM MOVIES; /* Cuenta los ids de los directores sin repetrilos */
+	~~~
  - [SUM]()
 	~~~
 	SELECT SUM(salario) from alumno WHERE nombre LIKE '%I_';
@@ -151,6 +154,10 @@
 	~~~
 	-- agrupa todos los apellidos, los muestra y, de cada apellido, muestra el valor más pequeño
 	SELECT apellido, MIN(salario) FROM alumno GROUP BY apellido;
+	~~~
+ 	- HAVING
+	~~~
+	SELECT DIRECTORID, COUNT(ID) FROM MOVIES GROUP BY DIRECTORID HAVING COUNT(ID) > 1;
 	~~~
  - [AVG]()
 	~~~
