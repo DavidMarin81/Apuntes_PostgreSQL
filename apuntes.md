@@ -126,6 +126,13 @@
  	-- Modificando la tabla para añadirle un PK
 	ALTER TABLE alumno ADD PRIMARY KEY (idAlumno);
 	~~~
+
+ 	~~~
+ 	-- Modificando la tabla para añadirle una FK
+	ALTER TABLE alumno ADD CONSTRAINT FK_MOVIES_GENRES
+  	FOREIGN KEY (MOVIES.GENRE_ID;
+  	REFERENCES GENRES(GENRES.GENRE_ID);
+	~~~
  - [ORDER BY]()
 	~~~
 	SELECT * FROM alumno ORDER BY idAlumno DESC;
